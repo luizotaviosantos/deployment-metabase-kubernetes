@@ -1,3 +1,4 @@
+![metabase-setup-diagram](https://user-images.githubusercontent.com/95440965/225619296-aa0988a1-58d8-4e44-b992-8fb37bb85b71.png)
 
 
 # INTRO
