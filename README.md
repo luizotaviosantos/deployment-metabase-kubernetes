@@ -18,11 +18,13 @@ Metabase's yaml file consists in 5 objects:
 
 If you want to deploy a postgres on cluster you can use the postgres yaml file.
 
+
+
 PostgreSQL's yaml file consists in 3 objects:
 
-2.	ConfigMap (Environment variables for database name, user and password).
-3.	Deployment (Deployment with postgres:13.1 image).
-4.	Service (Service running on tcp 5432).
+1.	ConfigMap (Environment variables for database name, user and password).
+2.	Deployment (Deployment with postgres:13.1 image).
+3.	Service (Service running on tcp 5432).
 
 
 <h3>
