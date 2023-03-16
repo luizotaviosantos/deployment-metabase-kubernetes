@@ -1,2 +1,21 @@
-# deployment-metabase-kubernetes
-Repository with instructions and yaml files for help to deploy metabase on a Kubernetes Cluster.
+
+
+# INTRO
+This repository was created to help you deploy Metabase on a Kubernetes cluster for large-scale use and scalability. The deployment consists of a YAML file containing 5 objects: Namespace, ConfigMap, Deployment, Service and Ingress. This allows you to connect Metabase to an external database. The repo also includes a PostgreSQL YAML file in case you want to deploy a database in your kubernetes cluster.
+
+# BRIEF
+Metabase's yaml file consists in 5 objects:
+
+1.  Namespace (Creates 'metabase' namespace)
+2.	ConfigMap (Environment variables for conection on).
+3.	Deployment (Deployment with v0.44.2 image).
+4.	Service (Service running on tcp 3000).
+5.	Ingress (Ingress for external access for tcp port 3000..).
+
+
+# BUILD AND DEPLOY
+After the deployment, wait until the creation and preparation of the database is complete.
+
+
+# TROUBLESHOOTING
+Check the metabase pod logs for troubleshooting.
