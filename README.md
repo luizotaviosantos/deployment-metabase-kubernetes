@@ -7,7 +7,9 @@ This repository was created to help you deploy Metabase on a Kubernetes cluster 
 <h1>BRIEF<h1>
 <h3>
 Metabase's yaml file consists in 5 objects:
+  
 
+  
 1.  Namespace (Creates 'metabase' namespace)
 2.	ConfigMap (Environment variables for conection on).
 3.	Deployment (Deployment with v0.44.2 image).
