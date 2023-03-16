@@ -11,10 +11,20 @@ Metabase's yaml file consists in 5 objects:
 
   
 1.  Namespace (Creates 'metabase' namespace)
-2.	ConfigMap (Environment variables for conection on).
+2.	ConfigMap (Environment variables for conection on your database).
 3.	Deployment (Deployment with v0.44.2 image).
 4.	Service (Service running on tcp 3000).
 5.	Ingress (Ingress for external access for tcp port 3000..).
+
+If you want to deploy a postgres on cluster you can use the postgres yaml file.
+
+PostgreSQL's yaml file consists in 3 objects:
+
+2.	ConfigMap (Environment variables for database name, user and password).
+3.	Deployment (Deployment with postgres:13.1 image).
+4.	Service (Service running on tcp 5432).
+
+
 <h3>
 
 
